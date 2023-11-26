@@ -8,7 +8,7 @@ import lombok.Setter;
 @Table(name = "burger")
 @Getter
 @Setter
-public class Burger {
+public class BurgerEntity {
 
     @Id
     @Column(name = "id_burger")
